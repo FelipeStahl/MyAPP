@@ -59,3 +59,26 @@
 2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
 2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
 2020-08-04 09:39:13> Program: Building embedded zip file for Setup.exe
+2020-08-04 10:04:19> Program: Starting Squirrel Updater: --releasify MyAPP.1.0.2.nupkg
+2020-08-04 10:04:19> Program: Bootstrapper EXE found at:C:\Users\Felipe-Sistema\Source\Repos\MyApp\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-08-04 10:04:19> Program: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP.1.0.2.nupkg
+2020-08-04 10:04:19> ReleasePackage: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP.1.0.2.nupkg => C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP-1.0.2-full.nupkg
+2020-08-04 10:04:20> ReleasePackage: Extracting dependent packages: []
+2020-08-04 10:04:20> ReleasePackage: Removing unnecessary data
+2020-08-04 10:04:20> ReleasePackage: No release notes found in C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempa\MyAPP.nuspec
+2020-08-04 10:04:20> DeltaPackageBuilder: Extracting .\Releases\MyAPP-1.0.1-full.nupkg and C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP-1.0.2-full.nupkg into C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempb
+2020-08-04 10:04:20> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2020-08-04 10:04:20> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2020-08-04 10:04:20> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: Delta patching C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempa\lib\net45\MyApp.exe => C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempb\lib\net45\MyApp.exe
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\MyApp.exe.config hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: Delta patching C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempa\lib\net45\MyApp_ExecutionStub.exe => C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempb\lib\net45\MyApp_ExecutionStub.exe
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2020-08-04 10:04:21> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2020-08-04 10:04:22> Program: Building embedded zip file for Setup.exe

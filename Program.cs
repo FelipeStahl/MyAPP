@@ -17,9 +17,9 @@ namespace MyApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            using (var mgr = new UpdateManager(@"C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases"))
+            using (var mgr = UpdateManager.GitHubUpdateManager("https://github.com/FelipeStahl/MyAPP"))
             {
-                await mgr.UpdateApp();
+                await mgr.Result.UpdateApp();
             }
             Application.Run(new Form1());
         }
