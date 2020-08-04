@@ -1,0 +1,61 @@
+﻿2020-08-04 09:29:43> Program: Starting Squirrel Updater: --releasify MyApp.1.0.0.nupkg
+2020-08-04 09:29:43> Program: Bootstrapper EXE found at:C:\Users\Felipe-Sistema\Source\Repos\MyApp\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-08-04 09:29:43> Program: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyApp.1.0.0.nupkg
+2020-08-04 09:29:43> ReleasePackage: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyApp.1.0.0.nupkg => C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP-1.0.0-full.nupkg
+2020-08-04 09:29:43> ReleasePackage: Couldn't find file for package in .: squirrel.windows
+2020-08-04 09:29:43> Unhandled exception: System.Exception: Couldn't find file for package in .: squirrel.windows
+   em Squirrel.ReleasePackage.<>c__DisplayClass20_0.<findAllDependentPackages>b__2(PackageDependency dependency)
+   em System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   em System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   em System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   em Squirrel.ReleasePackage.findAllDependentPackages(IPackage package, IPackageRepository packageRepository, HashSet`1 packageCache, FrameworkName frameworkName)
+   em Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   em Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   em Squirrel.Update.Program.executeCommandLine(String[] args)
+   em Squirrel.Update.Program.main(String[] args)
+2020-08-04 09:30:01> Program: Starting Squirrel Updater: --releasify MyAPP.1.0.0.nupkg
+2020-08-04 09:30:01> Program: Bootstrapper EXE found at:C:\Users\Felipe-Sistema\Source\Repos\MyApp\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-08-04 09:30:01> Program: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyApp.1.0.0.nupkg
+2020-08-04 09:30:01> ReleasePackage: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyApp.1.0.0.nupkg => C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP-1.0.0-full.nupkg
+2020-08-04 09:30:01> ReleasePackage: Couldn't find file for package in .: squirrel.windows
+2020-08-04 09:30:01> Unhandled exception: System.Exception: Couldn't find file for package in .: squirrel.windows
+   em Squirrel.ReleasePackage.<>c__DisplayClass20_0.<findAllDependentPackages>b__2(PackageDependency dependency)
+   em System.Linq.Enumerable.<SelectManyIterator>d__17`2.MoveNext()
+   em System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   em System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   em Squirrel.ReleasePackage.findAllDependentPackages(IPackage package, IPackageRepository packageRepository, HashSet`1 packageCache, FrameworkName frameworkName)
+   em Squirrel.ReleasePackage.CreateReleasePackage(String outputFile, String packagesRootDir, Func`2 releaseNotesProcessor, Action`1 contentsPostProcessHook)
+   em Squirrel.Update.Program.Releasify(String package, String targetDir, String packagesDir, String bootstrapperExe, String backgroundGif, String signingOpts, String baseUrl, String setupIcon, Boolean generateMsi, String frameworkVersion, Boolean generateDeltas)
+   em Squirrel.Update.Program.executeCommandLine(String[] args)
+   em Squirrel.Update.Program.main(String[] args)
+2020-08-04 09:31:03> Program: Starting Squirrel Updater: --releasify MyAPP.1.0.0.nupkg
+2020-08-04 09:31:03> Program: Bootstrapper EXE found at:C:\Users\Felipe-Sistema\Source\Repos\MyApp\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-08-04 09:31:03> Program: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP.1.0.0.nupkg
+2020-08-04 09:31:04> ReleasePackage: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP.1.0.0.nupkg => C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP-1.0.0-full.nupkg
+2020-08-04 09:31:04> ReleasePackage: Extracting dependent packages: []
+2020-08-04 09:31:04> ReleasePackage: Removing unnecessary data
+2020-08-04 09:31:04> ReleasePackage: No release notes found in C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempa\MyAPP.nuspec
+2020-08-04 09:31:05> Program: Building embedded zip file for Setup.exe
+2020-08-04 09:39:11> Program: Starting Squirrel Updater: --releasify MyAPP.1.0.1.nupkg
+2020-08-04 09:39:11> Program: Bootstrapper EXE found at:C:\Users\Felipe-Sistema\Source\Repos\MyApp\packages\squirrel.windows.1.9.1\tools\Setup.exe
+2020-08-04 09:39:11> Program: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP.1.0.1.nupkg
+2020-08-04 09:39:11> ReleasePackage: Creating release package: C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP.1.0.1.nupkg => C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP-1.0.1-full.nupkg
+2020-08-04 09:39:12> ReleasePackage: Extracting dependent packages: []
+2020-08-04 09:39:12> ReleasePackage: Removing unnecessary data
+2020-08-04 09:39:12> ReleasePackage: No release notes found in C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempa\MyAPP.nuspec
+2020-08-04 09:39:12> DeltaPackageBuilder: Extracting .\Releases\MyAPP-1.0.0-full.nupkg and C:\Users\Felipe-Sistema\Source\Repos\MyApp\Releases\MyAPP-1.0.1-full.nupkg into C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempb
+2020-08-04 09:39:12> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.dll hasn't changed, writing dummy file
+2020-08-04 09:39:12> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.MsDelta.dll hasn't changed, writing dummy file
+2020-08-04 09:39:12> DeltaPackageBuilder: \lib\net45\DeltaCompressionDotNet.PatchApi.dll hasn't changed, writing dummy file
+2020-08-04 09:39:12> DeltaPackageBuilder: \lib\net45\Mono.Cecil.dll hasn't changed, writing dummy file
+2020-08-04 09:39:12> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Mdb.dll hasn't changed, writing dummy file
+2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Pdb.dll hasn't changed, writing dummy file
+2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\Mono.Cecil.Rocks.dll hasn't changed, writing dummy file
+2020-08-04 09:39:13> DeltaPackageBuilder: Delta patching C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempa\lib\net45\MyApp.exe => C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempb\lib\net45\MyApp.exe
+2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\MyApp.exe.config hasn't changed, writing dummy file
+2020-08-04 09:39:13> DeltaPackageBuilder: Delta patching C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempa\lib\net45\MyApp_ExecutionStub.exe => C:\Users\Felipe-Sistema\AppData\Local\SquirrelTemp\tempb\lib\net45\MyApp_ExecutionStub.exe
+2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\NuGet.Squirrel.dll hasn't changed, writing dummy file
+2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\SharpCompress.dll hasn't changed, writing dummy file
+2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\Splat.dll hasn't changed, writing dummy file
+2020-08-04 09:39:13> DeltaPackageBuilder: \lib\net45\Squirrel.dll hasn't changed, writing dummy file
+2020-08-04 09:39:13> Program: Building embedded zip file for Setup.exe
